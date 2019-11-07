@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Page Title
+        </title>
+    </head>
+    <body>
+        <script>
+            //Javascript goes here
+            let a  = 10
+            let b = 7 * a
+            const max = 57
+            let actual = max - 13
+            let percentage = actual / max
+            console.log("Hello world!")
+            console.log(23 + 97)
+            console.log(1+2+3+4+5+6)
+            console.log((4+6+9)/77)
+            console.log(a)
+            console.log(9*a)
+            console.log(b)
+            let userLoginInput = prompt("Log in: ");
+                if (userLoginInput == "Admin") {
+                    let userPasswordInput = prompt("Enter Password: ");
+                    if (userPasswordInput == "TheMaster") {
+                        alert("Welcome!");
+                    } else if (userPasswordInput == '' || userPasswordInput == null) {
+                        alert("Canceled!");
+                    } else {
+                        alert("Wrong Password!")
+                    }
+                } else if (userLoginInput == '' || userLoginInput == null) {
+                    alert("Canceled");
+                } else {
+                    alert("I don't know you.");
+                }
+        </script>
+    </body>
+</html>
